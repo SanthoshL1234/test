@@ -79,6 +79,46 @@ namespace Jenkins2
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Application", "Run application 'D:\\Santosh\\DATA\\Ranorex\\VipV1.exe' with arguments '' in normal mode.", new RecordItemIndex(0));
+            Host.Local.RunApplication("D:\\Santosh\\DATA\\Ranorex\\VipV1.exe", "", "D:\\Santosh\\DATA\\Ranorex", false);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FormVipApplication.FirstName' at 16;11.", repo.FormVipApplication.FirstNameInfo, new RecordItemIndex(1));
+            repo.FormVipApplication.FirstName.Click("16;11");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'san' with focus on 'FormVipApplication.FirstName'.", repo.FormVipApplication.FirstNameInfo, new RecordItemIndex(2));
+            repo.FormVipApplication.FirstName.PressKeys("san");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FormVipApplication.LastName' at 27;9.", repo.FormVipApplication.LastNameInfo, new RecordItemIndex(3));
+            repo.FormVipApplication.LastName.Click("27;9");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 's' with focus on 'FormVipApplication.LastName'.", repo.FormVipApplication.LastNameInfo, new RecordItemIndex(4));
+            repo.FormVipApplication.LastName.PressKeys("s");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FormVipApplication.Music' at 27;10.", repo.FormVipApplication.MusicInfo, new RecordItemIndex(5));
+            repo.FormVipApplication.Music.Click("27;10");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FormVipApplication.RbMale' at 3;7.", repo.FormVipApplication.RbMaleInfo, new RecordItemIndex(6));
+            repo.FormVipApplication.RbMale.Click("3;7");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FormVipApplication.BtAdd' at 28;14.", repo.FormVipApplication.BtAddInfo, new RecordItemIndex(7));
+            repo.FormVipApplication.BtAdd.Click("28;14");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FormVipApplication.BtDelete' at 20;13.", repo.FormVipApplication.BtDeleteInfo, new RecordItemIndex(8));
+            repo.FormVipApplication.BtDelete.Click("20;13");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'FormVipApplication.Close' at 26;7.", repo.FormVipApplication.CloseInfo, new RecordItemIndex(9));
+            repo.FormVipApplication.Close.Click("26;7");
+            Delay.Milliseconds(200);
+            
         }
 
 #region Image Feature Data

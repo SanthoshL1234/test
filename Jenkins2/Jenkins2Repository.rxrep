@@ -1,19 +1,117 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<repository
-name="Jenkins2Repository"
+﻿<repository
 id="156a7f5a-bbc1-4e4b-8e0f-720297f4cca7"
+name="Jenkins2Repository"
 rxversion="8.2">
-  <codegen
-  classname="Jenkins2Repository"
-  namespace="Jenkins2"/>
-  <rootfolder
-  name="Root"
-  id="eef1f75e-5a0e-4d40-b1ee-871467b39539"
-  searchtimeout="30000ms"
-  capname="unknown"
-  isrooted="True"
-  usecache="True">
-    <basepath/>
-  </rootfolder>
-  <variables/>
+	<codegen
+	classname="Jenkins2Repository"
+	namespace="Jenkins2">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="eef1f75e-5a0e-4d40-b1ee-871467b39539"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="a067d6c4-68b6-472d-8969-ac1dcc06a177"
+		isrooted="True"
+		name="FormVipApplication"
+		refpath="/form[@controlname='formVipApplication']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="ba3fb369-7a00-44a3-bfc7-f42c5035ef4f"
+			name="FirstName"
+			refimgid="8f643498-5cc8-4a62-8712-f46273a09725"
+			refpath="/form[@controlname='formVipApplication']/text[@controlname='tbFirstName']/text[@accessiblename='First Name:']"
+			searchtimeout="30000ms">
+				/form[@controlname='formVipApplication']/?/?/text[@accessiblename='First Name:']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="b8e3a5f2-146a-434d-8720-e4a719b17a6a"
+			name="LastName"
+			refimgid="37522a10-b49b-4a6c-a35e-989519ad9b5d"
+			refpath="/form[@controlname='formVipApplication']/text[@controlname='tbLastName']/text[@accessiblename='Last Name:']"
+			searchtimeout="30000ms">
+				/form[@controlname='formVipApplication']/?/?/text[@accessiblename='Last Name:']
+			</item>
+			<item
+			addcaps="listitem,accessible"
+			capname="listitem"
+			id="dc0d2286-81dd-40d2-be6f-0e96a8d9fd1f"
+			name="Music"
+			refimgid="eff007d9-9666-408f-b68b-bd171a4a5023"
+			refpath="/form[@controlname='formVipApplication']/list/list/listitem[@accessiblename='Music']"
+			searchtimeout="30000ms">
+				/form[@controlname='formVipApplication']/list[@controlname='lbCategory']/?/?/listitem[@accessiblename='Music']
+			</item>
+			<item
+			addcaps="radiobutton,control,nativewindow"
+			capname="radiobutton"
+			id="eb3a4269-7500-4c12-9503-1ca87744d57e"
+			name="RbMale"
+			refimgid="333ff3fd-1c4c-4f92-bcbc-9d2fdb07ac9a"
+			refpath="/form[@controlname='formVipApplication']/container/radiobutton[@controlname='rbMale']"
+			searchtimeout="30000ms">
+				/form[@controlname='formVipApplication']/?/?/radiobutton[@controlname='rbMale']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="db9759f4-ed82-4ce8-9f77-045ce33040f0"
+			name="BtAdd"
+			refimgid="f5b3a092-6f43-4c88-881b-2f65a57a01c6"
+			refpath="/form[@controlname='formVipApplication']/button[@controlname='btAdd']"
+			searchtimeout="30000ms">
+				/form[@controlname='formVipApplication']/button[@controlname='btAdd']
+			</item>
+			<item
+			addcaps="button,control,nativewindow"
+			capname="button"
+			id="68f2d159-14c0-4dfa-b7c0-b87003ed44cb"
+			name="BtDelete"
+			refimgid="d58fb248-0224-4180-9c73-1b00464891e0"
+			refpath="/form[@controlname='formVipApplication']/button[@controlname='btDelete']"
+			searchtimeout="30000ms">
+				/form[@controlname='formVipApplication']/button[@controlname='btDelete']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="b5e01868-9ea3-4aa9-8234-0a5472f887f4"
+			name="Close"
+			refimgid="56b03377-0ac3-42c8-a46e-bc02d789a837"
+			refpath="/form[@controlname='formVipApplication']/titlebar/button[@accessiblename='Close']"
+			searchtimeout="30000ms">
+				/form[@controlname='formVipApplication']/?/?/button[@accessiblename='Close']
+			</item>
+			<basepath>
+				/form[@controlname='formVipApplication']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAH4SURBVDhPrdFdSJNhGMbxR1BzhTJzapnsJGgU
+RnQQEXYQhGkEgRIUihSzrKyEMM0ME00ENRY6WjPLmOasObKkHDTKmoSBERUZbNWsVdtys/nRKjr5
+9+F74AvBwLrggufk/l0Hj/gveTDoYD6VzmcB6SnLsDGZbxOdfPW2EnbXMDNawvTjPCaHNnKlOj4y
+MGRQEfY08cVVzsyzQqYeZTN5by2fB9R0VC6KDNxvTZqzmknIrmGiP4VxaxzGsoVyYGxNNM7VMTzP
+iGVkVRyOlQrsusVMDWcT+r1qUxPoS+DTtWh83QJ9qUIOTN/sJWQ2ETDq8Taexro8noEmJaE7GoL9
+yQR6Ffh7ovjYJfBcFuhK4uRA8KIBf3MDnqpy3hwoQq9O5EaDkuCv1XFLDD6z4INJ8K5D4G4XNO5f
+IAfenzqB+3AxzvwdvMjZTPWSFCy1CfivRuGVVscuCV63CZxGQX1RrBxwFe5idFsWTzPXMZKh4aAq
+7a9/P7fS+SxQkZrKEdVSipPS2J24jAJlOlV9b+l08Kftd+GsDequw7Fu2HrcJgekpyxlZhdGO5y5
+DTVWONoF+9qgoOUH67U9kYG9hiectECpCbTnIV/3ndz6ADmVr1iReyEykFc3yJ5zsLM5zPZaH1sq
+XrLp0EM2aG+RntUiB+ZT6fxfIsRPbYnQgbXhGFYAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
 </repository>
