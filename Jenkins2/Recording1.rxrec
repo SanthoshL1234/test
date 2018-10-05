@@ -3598,18 +3598,6 @@ UUUAVbp9s8f/AFzb+a1jarcvHexMoBzEOv8AvNW1cJvuIx/0zb+a1k6nbLJfxqxIxEOn+81DvbQl
 vr0pDFooooAKKKKACiiigD//2Q==
 			</helperscreenshot>
 		</mouseitem>
-		<loggingrecorditem
-		category="User"
-		enabled="True"
-		message="end"
-		optional="False"
-		reportlevel="Info;20"
-		searchpropertyid="614efd38-c9b8-4522-a5de-e03814338fef">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</loggingrecorditem>
 	</recorditems>
 	<repository
 	id="156a7f5a-bbc1-4e4b-8e0f-720297f4cca7"
