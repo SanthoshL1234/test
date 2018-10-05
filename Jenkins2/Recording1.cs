@@ -119,6 +119,8 @@ namespace Jenkins2
             repo.FormVipApplication.Close.Click("26;7");
             Delay.Milliseconds(200);
             
+            Report.Log(ReportLevel.Info, "User", "end", new RecordItemIndex(10));
+            
         }
 
 #region Image Feature Data
