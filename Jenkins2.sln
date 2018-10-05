@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# Ranorex Studio 8.2
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jenkins2", "Jenkins2\Jenkins2.csproj", "{1751039C-1109-4621-9688-186DFB681520}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4C6FAB99-8474-41A5-8D19-F2ACC65B3EB4}"
+	ProjectSection(SolutionItems) = postProject
+		Ranorex = .\Ranorex.rxsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1751039C-1109-4621-9688-186DFB681520}.Debug|x86.Build.0 = Debug|x86
+		{1751039C-1109-4621-9688-186DFB681520}.Debug|x86.ActiveCfg = Debug|x86
+		{1751039C-1109-4621-9688-186DFB681520}.Release|x86.Build.0 = Release|x86
+		{1751039C-1109-4621-9688-186DFB681520}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

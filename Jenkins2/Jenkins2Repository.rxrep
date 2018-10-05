@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="Jenkins2Repository"
+id="156a7f5a-bbc1-4e4b-8e0f-720297f4cca7"
+rxversion="8.2">
+  <codegen
+  classname="Jenkins2Repository"
+  namespace="Jenkins2"/>
+  <rootfolder
+  name="Root"
+  id="eef1f75e-5a0e-4d40-b1ee-871467b39539"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="babcfc5e-14b5-4dc2-a9ad-23291d83e093"
+mode="Global"
+rxversion="8.2">
+	<name>
+		Recording1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="Jenkins2">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="156a7f5a-bbc1-4e4b-8e0f-720297f4cca7"
+	name="Jenkins2Repository"
+	relativepath="Jenkins2Repository.rxrep"
+	rxversion="8.2">
+		<codegen
+		classname="Jenkins2Repository"
+		namespace="Jenkins2">
+		</codegen>
+		<rootfolder
+		id="eef1f75e-5a0e-4d40-b1ee-871467b39539"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
